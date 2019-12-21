@@ -1,0 +1,135 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	background-color: #d6b657d1;
+}
+H1
+{
+	    margin-bottom: 25px;
+}
+.container
+{
+	    text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	    margin-top: 129px;
+}
+
+.container .left
+{
+	    float: left;
+    background-color: #808080a3;
+    border-left: 2px solid black;
+    border-bottom-left-radius: 29px;
+    border-top-left-radius: 29px;
+    width: 70;
+    width: 360px;
+
+}
+
+.container .right
+{
+	    float: right;
+    background-color: white;
+    margin-top: 0px;
+    width: 269px;
+    height: 347px;
+        border-top-right-radius: 29px;
+    border-bottom-right-radius: 29px;
+}
+
+.lftform input
+{
+     padding-bottom: 15px;
+    /* text-align: center; */
+    /* line-height: 17px; */
+    margin-bottom: 18px;
+       width: 37px;
+    /* height: 25px; */
+    border-radius: 9px;
+           margin-top: 12px;
+}
+
+.lftform input[ type="text"],
+ .lftform input[ type="password"],
+ .lftform input[ type="mail"]
+ {
+height: 8px;
+    text-align: center;
+    /* line-height: 7px; */
+    width: 222px;
+    /* margin-top: 23px; */
+    padding-top: 16px;
+    outline: none;
+ }
+
+ .lftform input[ type="Phone"]
+ {
+    height: 8px;
+    text-align: center;
+    padding-top: 16px;
+        width: 170px;
+        outline: none;
+ }
+  .lftform select
+  {
+height: 37px;
+    border-radius: 5px;
+  }
+  
+.lftform td
+{
+	font-weight: bold;
+}
+.lftform
+{
+	margin-left: 8px;
+}
+.rytform
+{
+    margin: 20px;
+}
+
+.rytform input[ type="text"],
+.rytform input[ type="password"]
+{
+    margin-bottom: 24px;
+    height: 40px;
+    text-align: center;
+    width: 204px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #1eb92aeb;
+}
+.rytform input[ type="text"]:focus,
+.rytform input[ type="password"]:focus
+{
+ border-bottom: 2px solid #262626;
+}
+.rytform input[ type="submit"]
+{
+	height: 37px;
+    width: 206px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.rytform input[ type="submit"]:hover
+{
+ background: #1eb92aeb;
+}
+.rytform td
+{
+font-weight: bold;
+    font-size: 20px;
+}
+
+a
+{
+	color: black;
+	       margin-left: 7px;
+}
