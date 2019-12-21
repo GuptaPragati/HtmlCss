@@ -1,0 +1,55 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+ul li
+{
+	
+    list-style: none;
+    float: left;
+    margin: 30px;
+    background-color: red;
+    height: 44px;
+    width: 170px;
+  position: relative;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 25px;
+}
+
+ul li a
+{
+	text-decoration: none;
+       color: white;
+       display: block;
+       border-radius: 25px;
+}
+ul li a:hover
+{
+	background-color: green;
+}
+
+ul li ul
+{
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+    margin-left: -68px;
+    margin-top: -18px;
+}
+ul li:hover>ul
+{
+	opacity: 1;
+	visibility: visible;
+}
+ul li ul li
+{
+	    margin-bottom: -21px;
+}
+ul li ul li ul
+{
+	    margin-left: 105px;
+    margin-top: -69px;
+}

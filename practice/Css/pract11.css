@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url(pg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.aa
+{
+    width: 380px;
+    height: 285px;
+    background-color: rgba(14, 13, 13, 0.13);
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 150px;
+      box-shadow: inset -4px -4px #000; 
+}
+
+.aa img
+{
+   width: 63px;
+    height: 55px;
+    margin-left: 169px;
+    margin-top: -28px;
+    border-radius: 26px;
+  
+}
+.aa h2
+{
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+}
+.aa input[type="text"],.aa input[type="password"]
+{
+    margin-left: 60px;
+    margin-top: 15px;
+    padding: 7px;
+    border-radius: 8px;
+    border: none;
+    width: 223px;
+}
+.aa input[type="submit"]
+{
+     margin-left: 60px;
+    margin-top: 15px;
+    width: 95px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: skyblue;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}

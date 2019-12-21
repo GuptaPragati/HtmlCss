@@ -1,0 +1,42 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    
+}
+
+
+.menu ul{
+   
+ list-style: none;
+ margin: 0;
+}
+.menu ul li{
+    position: relative;
+     background-color:midnightblue;
+    width: 250;
+     padding: 25px;
+      border-right: 5px solid rgba(255, 0, 0, 0.69);
+     border-bottom: 1px solid slategray;
+     text-transform: uppercase;
+         font-family: Arial, Helvetica, sans-serif;
+           font-size:18px;
+   
+}
+
+.menu ul li a{
+   
+    color: white;
+    text-decoration: none;
+   
+}
+
+
+.menu ul li:hover{
+     background-color: skyblue;
+   
+}  
+.menu ul li ul
+{
+    opacity: 0; visibility: hidden; position: absolute; transition: all 0.3s; left:265px; top:-1px;
+} 
+.menu ul li:hover ul{ opacity: 1; visibility:visible;}

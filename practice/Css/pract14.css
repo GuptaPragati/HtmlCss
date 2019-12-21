@@ -1,0 +1,152 @@
+body {
+    background:#bcbdc4;
+    height:400px;
+    margin: 0;
+    padding: 0;
+}
+.head1
+{
+	width:100%;
+	height:100px;
+	background: #142170;
+    color: white;
+    position: fixed;
+    font-family: verdana;
+      z-index: 7;
+}
+#facebook
+{
+	    top: 34px;
+    left: 140px;
+       width: 175px;
+    height: 65px;
+}
+#form1
+{
+	left: 700px;
+    width: 175px;
+    top: 15px;
+    height: 65px;	
+}
+#form2
+{
+	left: 900px;
+    width: 198px;
+    top: 15px;
+    height: 65px;
+}
+#form2 a
+{
+	color: wheat;
+	cursor: pointer;
+	text-decoration: none;
+}
+.login
+{
+	    left: 1108px;
+    cursor: pointer;
+    position: fixed;
+    top: 35px;
+    outline: none;
+    position: fixed;
+    z-index: 8;
+}
+.bodyx
+{
+	position: absolute;
+	top: 100px;
+	 color: #142170;
+	 font-family: verdana;
+	 width: 100%;
+	 height: 645px;
+}
+#aa
+{
+	top: 43px;
+    left: 144px;
+    height: 67px;
+    width: 456px;
+    font-size: 24px;
+   
+}
+#img1 img
+{
+ height: 274px;
+    margin-top: 31px;
+    margin-left: 144px;
+    width: 455px;
+}
+#aa1
+{
+	left: 701px;
+    top: 35px;
+    width: 340px;
+    font-size: 36px;
+    height: 46px;
+}
+#aa2
+{
+	left: 708px;
+    top: 87px;
+    width: 282px;
+    font-size: 20px;
+    height: 35px;
+}
+
+#form3
+{   
+	    left: 708px;
+    top: 153px;
+    width: 419px;
+    font-size: 19px;
+    height: 253px;
+  }
+
+.box1
+{
+   width: 169px;
+    padding: 15px;
+    border-radius: 15px;
+    height: 20px;
+    font-size: 18px;
+    outline: none;
+ }   
+    
+.box2
+{
+ width: 381px;
+    padding: 15px;
+    border-radius: 10px;
+     height: 20px;
+    font-size: 18px;
+     outline: none;
+}
+.log
+{
+	    background: green;
+    width: 80px;
+    height: 43px;
+    color: white;
+    border-radius: 12px;
+    font-size: 17px;
+    outline: none;
+    cursor: pointer;
+}
+
+.foot
+{
+    width: 100%;
+    height:80px;
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 800px;
+}
+
+#info1
+{
+    color: rgba(128, 128, 128, 0.55);
+        padding-top: 15px;
+    padding-left: 200px;
+    width: 902px;
+}
